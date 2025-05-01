@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Forum Aspirasi Mahasiswa</title>
+    <link rel="stylesheet" href="kontak.css">
+</head>
+<body>
+    <header>
+        <h1>Ruang Aspirasi Mahasiswa</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <h2>Hubungi Kami</h2>
+
+    <section>
+        <div class="info">
+            <h3>Ada Kendala?</h3>
+            <p>Jika ada pertanyaan atau kendala silahkan 
+                hubungi kami melalui alamat email dibawah 
+                atau menggunakan form kontak, kami mencoba 
+                untuk tanggap dengan cepat.</p><br>
+            
+                <div class="kontak">
+                    <p>🏢 Jl. Dr. Soetomo No.1, Sidakaya, Cilacap, Jawa Tengah 53212</p>
+                    <p >✉️ <a href="https://www.gmail.com/rumpi@pnc.ac.id">rumpi@pnc.ac.id</a></p>
+                    <p>📞 (0282) 533329</p>
+                </div>                
+        </div>
+
+        <div class="form">
+            <h3>Form Kontak</h3>
+            <form>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+
+                <label for="pesan">Pesan:</label>
+                <textarea type="text" id="pesan" name="pesan"></textarea><br><br>
+
+                <button onclick="showPopup()" type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Politeknik Negeri Cilacap | Ruang Aspirasi Mahasisiwa</p>
+    </footer>
+
+    <script src="script_kontak.js"></script>
+</body>
+</html>

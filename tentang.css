@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('gedung_utama.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #083D62;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #1A2C43;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ee9908;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.info {
+    position: relative;
+    left: 210px;
+    color: black;
+    background-color: #d7d7d7c2;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 750px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info h2 {
+    font-size: 32px;
+    color: #1A2C43;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.pilihan {
+    padding: 12px 0;
+    width: 180px;
+    background-color: #2377b4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pilihan:hover {
+    background-color: #083D62;
+}
+
+footer {
+    background-color: #083D62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}

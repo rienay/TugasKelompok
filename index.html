@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama - Forum Aspirasi Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ruang Aspirasi Mahasiswa</h1>
+    </header>
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h2>Selamat datang di Forum Aspirasi Mahasiswa</h2>
+
+    <div class="form">
+        <h3>Kirim Aspirasimu Sekarang!</h3>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Isi Nama Anda"><br>
+
+        <label for="prodi">Prodi:</label>
+        <select id="prodi" name="prodi">
+            <option value="ti">D3 Teknik Informatika</option>
+            <option value="te">D3 Teknik Elektronika</option>
+            <option value="tl">D3 Teknik Listrik</option>
+            <option value="rks">D4 Teknik Rekayasa Keamanan Siber</option>
+            <option value="tppl">D4 Teknik Pengendalian Pencemaran Lingkungan</option>
+            <option value="ppa">D4 Teknik Pengambangan Produk Agroindustri</option>
+            <option value="alks">D4 Akuntansi Lembaga Keuangan Syariah</option>
+            <option value="trm">D4 Teknik Rekayasa Multimedia</option>
+            <option value="rpl">D4 Teknik Rekayasa Perangkat Lunak</option>
+        </select><br>
+
+        <label for="semester">Semester:</label>
+        <input type="text" id="semester" name="semester" placeholder="Isi Semester Anda"><br>
+
+        <label for="klasifikasi">Klasifikasi:</label>
+        <select id="klasifikasi" name="klasifikasi">
+            <option value="akademik">Akademik</option>
+            <option value="keuangan">Keuangan</option>
+            <option value="kemahasiswaan">Kemahasiswaan</option>
+            <option value="sarana">Saranaprasana</option>
+            <option value="birokrasi">Birokrasi Kampus</option>
+            <option value="isu sosial">Isu Sosial</option>
+        </select><br>
+
+        <label for="aspirasi">Aspirasi:</label>
+        <textarea id="aspirasi" name="aspirasi" placeholder="Isi Aspirasi Anda"></textarea><br>
+
+        <label for="harapana">Harapan:</label>
+        <textarea id="harapan" name="harapan" placeholder="Isi Harapan Anda"></textarea><br>
+
+        <button type="submit" onclick="showPopup()">Kirim Aspirasi</button> 
+    </div>
+
+    <footer>
+        <p>© 2025 Politeknik Negeri Cilacap | Ruang Aspirasi Mahasisiwa</p>
+    </footer>
+
+    <script src="script_index.js"></script>
+</body>
+</html>
